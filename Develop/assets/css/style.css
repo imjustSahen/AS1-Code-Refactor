@@ -12,41 +12,40 @@ body {
 /* Navigation */
 .header {
   padding: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   background-color: #2a607c;
   color: #ffffff;
 }
 
 .header h1 {
-  display: inline-block;
+  float: left;
   font-size: 48px;
 }
 
-.header h1 .seo {
-  color: #d9dcd6;
+h1 .seo {
+    color: #d9dcd6;
 }
 
-.header div {
-  padding-top: 15px;
-  margin-right: 20px;
+header {
+  position: fixed;
   float: right;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
+  width: 100%;
 }
 
-.header div ul {
-  list-style-type: none;
+nav {
+  /* display: inline-block; */
+  float: right;
+  margin-right: 25px;
+  padding-right: 0px;
+  padding-top: 15px;
 }
 
-.header div ul li {
-  display: inline-block;
-  margin-left: 25px;
-}
-
-a {
+nav a {
   color: #ffffff;
   text-decoration: none;
+  padding-right: 30px;
 }
 
 p {
