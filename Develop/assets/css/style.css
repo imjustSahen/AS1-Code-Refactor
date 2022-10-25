@@ -14,14 +14,17 @@ p {
   }
 
 /* Navigation */
-.header {
-  padding: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  background-color: #2a607c;
-  color: #ffffff;
-}
-
+header {
+    position: fixed;
+    float: right;
+    font-size: 20px;
+    width: 100%;
+    padding: 20px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+  }
+  
 .header h1 {
   float: left;
   font-size: 48px;
@@ -29,14 +32,6 @@ p {
 
 h1 .seo {
   color: #d9dcd6;
-}
-
-header {
-  position: fixed;
-  float: right;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 20px;
-  width: 100%;
 }
 
 nav {
