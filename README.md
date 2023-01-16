@@ -2,7 +2,7 @@
 
 ## Project Title
 
-Horiseon Code Refractor
+Horiseon Code Refactor
 
 ## Description
 
@@ -10,8 +10,8 @@ Assignment One was to review the starter code provided and optimize the site for
 
 ## Links
 
-https://imjustsahen.github.io/assignment-one/
-https://github.com/imjustSahen/assignment-one
+- [Horiseon Code Refactor](https://imjustsahen.github.io/as1-code-refactor/)
+- [Horiseon Code Refactor Repo](https://github.com/imjustSahen/as1-code-refactor)
 
 ## Installation
 
